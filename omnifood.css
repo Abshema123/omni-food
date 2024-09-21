@@ -1,0 +1,100 @@
+/* * {
+    margin: 0;
+    padding: 0;
+} */
+body{
+    height: 100vh;
+    background: linear-gradient(
+        to bottom,
+        rgb(199, 202, 204) 68%,
+        white 27%
+    );
+}
+.container{
+    width: 60%;
+    margin: 50px auto;
+}
+.style-p{
+    width: 32%;
+}
+.header-style{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+header img{
+    border-radius: 150px;
+}
+h1{
+    font-family: sans-serif;
+    font-size: 40px;
+}
+header p{
+    font-family: serif;
+}
+header a{
+    width: 100%;
+    text-decoration: none;
+    color: white;
+     background-color: black;
+     border-radius: 100px;
+     padding: 10px 30px;
+     font-size: 10px;
+}
+.link-style{
+    margin-top: 20px;
+}
+.grid-container img{
+    width: 140px;
+    height: 250px;
+    border-radius: 100px;
+}
+section{
+    width: 100%;
+    display: grid;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(1,1fr);
+    gap: 10px;
+}
+.grid-item{
+    width: 15%;
+}
+hr{
+    width: 40px;
+    margin-left: 0px;
+    height: 2px;
+    background-color: black;
+}
+.flex-box img{
+    height: 30px;
+    width: 30px;
+    border-radius: 80px;
+}
+.chef-dezign{
+    width: 100%;
+    margin-top: 100px;
+}
+.flex-box{
+    display: flex;
+    justify-content: space-between;
+}
+.final-dezign{
+    width: 100%;
+    display: flex;
+    gap: 50px;
+    margin-top: 30px;
+}
+@media only screen and (max-width: 768px){
+    .container{
+        margin: 5% 10%;
+        width: auto;
+    }
+    header{
+        flex-direction: column;
+        height: auto;
+    }
+}
